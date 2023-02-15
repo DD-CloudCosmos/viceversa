@@ -1,0 +1,78 @@
+body {
+    max-width: 1282px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.banner {
+    text-align: center;
+    background-color: #c8b8ff;
+    height: 5.7rem;
+    margin: auto;
+    line-height: 5.7rem;
+}
+
+.banner a {
+    margin: 2px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 8.9rem;
+    line-height: 8.9rem;
+}
+
+.nav ul li {
+    margin-right: 3.3rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: #699bf7;
+    padding-top: 6rem;
+    padding-left: 11.5rem;
+    padding-bottom: 15.3rem;
+    position: relative;
+
+}
+
+main h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3.1rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    max-width: 40rem;
+    margin-bottom: 4.2rem;
+    font-weight: 900;
+}
+
+main p {
+    max-width: 38.7rem;
+    line-height: 2.9rem;
+    margin-bottom: 33px;
+}
+
+main .getStartedButton {
+    padding: 1.6rem 2.8rem;
+    margin-bottom: 15.3rem;
+    background-color: black;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+main img {
+    position: absolute;
+    top: 6.1rem;
+    right: 28.8rem;
+}
